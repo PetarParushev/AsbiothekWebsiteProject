@@ -1,0 +1,89 @@
+body {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+h2, h3 {
+  line-height: 1.5;
+  text-align: center;
+}
+
+hr {
+  border: 1px solid;
+  width: 75%;
+}
+
+p {
+  text-align: justify;
+  text-justify: inter-word;
+  line-height: 2;
+}
+
+/* Nav Bar */
+.navbar-brand {
+  font-family: 'Lato-Black', sans-serif;
+  font-weight: bolder;
+  font-size: 2.5rem;
+  padding-left: 5%;
+}
+
+.nav-item {
+  padding: 0 1.1rem;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'Lato-Black', sans-serif;
+}
+
+/* Register Form */
+.register-form {
+  padding: 1% 0 0 1.5%;
+}
+
+/* Main Content */
+.main-content {
+  padding-top: 1%;
+}
+
+.content-box {
+  margin: 3% 3% 0;
+  padding: 2%;
+}
+
+.right-image {
+  width: 20%;
+  float: right;
+  margin-left: 5%;
+}
+
+.left-image {
+  width: 40%;
+  float: left;
+  margin-right: 5%;
+}
+
+/* Map and Information */
+.info {
+  padding: 1%;
+}
+
+.info-box {
+  padding: 3%;
+}
+
+.info-p {
+  text-align: center;
+  font-weight: bold;
+}
+
+/* Footer */
+.buttons {
+  text-align: center;
+  padding: 2% 5%;
+}
+
+.footer-p {
+  text-align: center;
+  margin: 0;
+  padding: 1%;
+}

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title> Asbiothek</title>
+  <link rel="icon" href="images/title-icon.png">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Bitter|Lato" rel="stylesheet">
+
+  <!-- CSS Stylesheets -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/about-us-style.css">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
+  <!-- Bootstrap Scripts -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <header>
+
+    <!-- Nav Bar -->
+    <nav class="navbar navbar-expand-md navbar-light bg-warning">
+
+      <a class="navbar-brand" href="index.html">Asbiothek</a>
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarToggler">
+
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="about-us.html">За нас</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="services-page.html">Услуги</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="useful-page.html">Полезно е да знаете</a>
+          </li>
+        </ul>
+
+      </div>
+
+    </nav>
+
+  </header>
+
+  <!-- Main Container -->
+  <div class="container-fluid">
+
+    <div class="row">
+
+      <!-- Register form -->
+      <aside class="register-form col-md-3">
+        <form>
+          <div class="form-group">
+            <h2>Регистрация: </h2>
+            <label for="exampleInputEmail1">Email address</label>
+            <input type="email" class="form-control" placeholder="Enter email">
+          </div>
+          <div class="form-group">
+            <label>Password</label>
+            <input type="password" class="form-control" placeholder="Password">
+          </div>
+          <button type="submit" class="btn btn-warning btn-lg">Потвърди</button>
+        </form>
+      </aside>
+
+      <!-- Main Content -->
+      <section class="main-content col-lg-6 col-md-9">
+        <h2>За нас</h2>
+        <h3>СВ-ОБЕРБАУ АСБИОТЕК ООД</h3>
+
+        <div class="content-box">
+          <img src="images/mashina-1.jpg" alt="mashina" class="right-image">
+          <p>Имаме удоволствието да Ви представим нашата фирма, която работи в областта на мебелното производство. Реализираме производство и дизайн на мебели за дома – кухни, спални, детски стаи, антрета, бани и обществени заведения – офиси,
+            хотели,
+            магазини и др.</p>
+        </div>
+
+        <hr>
+
+        <div class="content-box">
+          <img src="images/proekt.png" alt="proekt" class="left-image">
+          <p>Фирмата разполага със собствена база и модерно оборудване. Нашият затворен цикъл – дизайн, визуализация, производство, доставка и монтаж е предимство, което гарантира бързото и качествено изпълнение на поръчаната от Вас мебел.</p>
+        </div>
+
+        <hr>
+
+        <div class="content-box">
+          <img src="images/leglo.jpg" alt="leglo" class="right-image">
+          <p>Произведените от нас мебели се изработват по индивидуален проект, съобразно изискванията, размерите и цветовите желания на клиента.3D визуализацията Ви дава реалистична визия на поръчаните мебели. Освен производството на мебели, фирмата
+            осъществява още и услуги по разкрояване и кантиране на мебелни плоскости.</p>
+        </div>
+
+      </section>
+
+      <!-- Map and Ifnormation -->
+      <aside class="info col-lg-3">
+
+        <div>
+
+          <div>
+            <script src="https://maps.google.com/maps/api/js?sensor=false"></script>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11873.726445540471!2d24.9618756!3d41.926576!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x46c2ffcef5b26f22!2z0KHQki3QntCR0JXQoNCR0JDQoy3QkNCh0JHQmNCe0KLQldCa!5e0!3m2!1sbg!2sbg!4v1543256034581"
+              width="100%" height="294px" style="border:0" allowfullscreen></iframe>
+          </div>
+
+          <div class="info-box">
+            <p class="info-p">Адрес: Горнослав, Селскостопански Двор</p>
+            <p class="info-p">Работно време:</p>
+            <p class="info-p">Понеделник-Петък: 9:00 - 17:00</p>
+            <p class="info-p">Събота: 10:00 - 16:00</p>
+            <p class="info-p">Неделя: Почивен ден</p>
+            <p class="info-p">Телефон за връзка: +359 89 852 953</p>
+            <p class="info-p">E-Mail: Asbiothek@abv.bg</p>
+          </div>
+
+        </div>
+
+      </aside>
+
+    </div>
+
+  </div>
+
+  <!-- Footer -->
+  <footer id="footer" class="bg-warning">
+    <div class="buttons">
+      <a class="btn btn-dark btn-lg" href="#" role="button" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+      <a class="btn btn-info btn-lg" href="#" role="button" title="Instagram"><i class="fab fa-instagram"></i></a>
+      <a class="btn btn-primary btn-lg" href="#" role="button" title="Twitter"><i class="fab fa-twitter"></i></a>
+    </div>
+    <p class="footer-p">Made By: Petar "Colosale" Parushev 👦</p>
+    <p class="footer-p">&copy; All Rights Reserved!</p>
+  </footer>
+
+</body>
+
+</html>

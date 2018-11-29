@@ -1,0 +1,58 @@
+body {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+h2 {
+  line-height: 1.5;
+  text-align: center;
+}
+
+p {
+  text-align: justify;
+  text-justify: inter-word;
+  line-height: 2;
+}
+
+/* Nav Bar */
+.navbar-brand {
+  font-family: 'Lato-Black', sans-serif;
+  font-weight: bolder;
+  font-size: 2.5rem;
+  padding-left: 5%;
+}
+
+.nav-item {
+  padding: 0 1.1rem;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'Lato-Black', sans-serif;
+}
+
+/* Main Content */
+.content {
+  margin: 3% auto;
+}
+
+.content-box {
+  padding: 3%;
+  text-align: center;
+}
+
+.content-image {
+  margin: 3%;
+  width: 50%;
+}
+
+/* Footer */
+.footer-buttons {
+  text-align: center;
+  padding: 2% 5%;
+}
+
+.footer-p {
+  text-align: center;
+  margin: 0;
+  padding: 1%;
+}
